@@ -6,6 +6,6 @@ receivers:
     - name: 'slack'
       slack_configs:
           - send_resolved: true
-            username: 'jessica_alarmes'
+            username: '<username>'
             channel: '#monitoamento'
-            api_url: 'https://hooks.slack.com/services/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'
+            api_url: '<web-hook>'
